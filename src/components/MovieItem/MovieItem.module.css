@@ -1,0 +1,65 @@
+.movieItem {
+    display: flex;
+
+    padding: 20px 20px;
+    font-size: 20px;
+
+    border-radius: 10px;
+
+    background-color: white;
+
+    box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 2px 3px 21px 10px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 2px 3px 21px 10px rgba(0, 0, 0, 0.75);
+}
+
+.moviePosterBox {
+    display: flex;
+    align-items: center;
+}
+
+.moviePoster {
+    height: 150px;
+    /* width: 100px; */
+}
+
+.movieInfo {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+    width: 100%;
+    height: inherit;
+    padding-left: 20px;
+}
+
+.additionalInfo {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.movieTitle {
+    cursor: pointer;
+}
+
+.ratingsInfo {
+    display: flex;
+    gap: 50px;
+}
+
+.ratingInfo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.imdbRatingIcon {
+    color: rgb(245, 197, 24);
+    stroke: black;
+}
+
+.userRatingIcon {
+    color: rgb(14, 99, 190);
+    stroke: black;
+}

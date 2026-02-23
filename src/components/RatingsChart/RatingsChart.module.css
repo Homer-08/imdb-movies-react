@@ -1,0 +1,45 @@
+.ratingsChart {
+    width: 20%;
+
+    margin-bottom: 20px;
+}
+
+.ratingsChartList {
+    display: flex;
+
+    height: 150px;
+    width: 100%;
+    gap: 5px;
+}
+
+.ratingsChartColumn {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    flex-grow: 1;
+    text-align: center;
+    height: 100%;
+}
+
+.wholeColumn {
+    display: flex;
+    align-items: end;
+
+    height: 100%;
+
+    cursor: pointer;
+}
+
+.wholeColumn:hover {
+    background-color: rgba(0, 0, 0, 0.3);
+    border-radius: 5px 5px 0 0;
+    transition-duration: 0.3s;
+}
+
+.columnFullness {
+    display: flex;
+    flex-grow: 1;
+    
+    border-radius: 5px 5px 0 0;
+    background-color: red;
+}

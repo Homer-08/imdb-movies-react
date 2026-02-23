@@ -1,0 +1,8 @@
+.map {
+  width: 65%;
+}
+
+.svgMap path {
+  fill: inherit;
+  stroke: white;
+}
